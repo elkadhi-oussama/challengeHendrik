@@ -1,0 +1,92 @@
+/* Global Styles */
+* {
+  background-color: black; /* Set background color for all elements to black */
+  color: white; /* Set text color for all elements to white */
+}
+
+/* Styles for the container of all users */
+.allusers {
+  width: 50%; /* Set the width of the container to 50% */
+  margin: 5% auto; /* Center the container horizontally with a 5% margin from the top */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+}
+
+/* Styles for individual user entries */
+.userCss {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space elements evenly along the main axis */
+  align-items: center; /* Center children vertically */
+  width: 80%; /* Set the width of the user entry to 80% */
+  margin: 20px 0; /* Add margin above and below the user entry */
+  padding: 20px; /* Add padding around the user entry */
+}
+
+/* Styles for user action buttons */
+.userBtn {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+}
+
+/* Styles for the update button */
+.updateBTN {
+  margin-bottom: 20px; /* Add margin below the update button */
+}
+
+/* Styles for the Add User section */
+.sectionAddUser {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange children in a column */
+  width: 20%; /* Set the width of the section to 20% */
+  margin: 0 auto; /* Center the section horizontally */
+}
+
+/* Styles for the update input fields */
+.update {
+  padding: 15px 5px 0px; /* Add padding to the update section */
+  width: 100%; /* Set the width of the update section to 100% */
+}
+
+/* Styles for the modal background */
+.bgModal {
+  background-color: black; /* Set background color for the modal background to black */
+}
+
+/* Styles for input fields in the Add User section */
+.sectionAddUser input {
+  margin-bottom: 20px; /* Add margin below the input fields */
+  height: 30px; /* Set the height of the input fields to 30px */
+  border: 2px solid white; /* Set a white border for the input fields */
+  border-radius: 8px; /* Set border radius for rounded corners */
+  padding: 20px; /* Add padding to the input fields */
+  font-size: 18px; /* Set font size for the input fields */
+  text-align: center; /* Center the text in the input fields */
+  text-transform: uppercase; /* Convert text to uppercase in the input fields */
+}
+
+/* Styles for the Add User button in the Add User section */
+.sectionAddUser button {
+  width: 20%; /* Set the width of the button to 20% */
+  margin: 0 auto 50px; /* Center the button horizontally with a margin below */
+  border: 2px solid white; /* Set a white border for the button */
+  border-radius: 20px; /* Set border radius for rounded corners */
+  padding: 15px; /* Add padding to the button */
+  font-size: 20px; /* Set font size for the button */
+  font-weight: bold; /* Set font weight to bold for the button */
+  cursor: pointer; /* Set cursor to pointer for interaction */
+}
+
+/* Styles for the first Add User button in the Add User section */
+.sectionAddUser button:first-child {
+  width: 40%; /* Set the width of the first button to 40% */
+}
+
+/* Styles for the hover effect on Add User buttons in the Add User section */
+.sectionAddUser button:hover {
+  border: 2px solid green; /* Set border to green on hover */
+  background-color: black; /* Set background color to black on hover */
+  color: green; /* Set text color to green on hover */
+}
+/* End of Styles */
